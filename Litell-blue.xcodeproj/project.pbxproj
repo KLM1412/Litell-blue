@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0724CF07257139DA009A00D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0724CF06257139DA009A00D9 /* AppDelegate.swift */; };
+		0724CF09257139DA009A00D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0724CF08257139DA009A00D9 /* SceneDelegate.swift */; };
+		0724CF0B257139DA009A00D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0724CF0A257139DA009A00D9 /* ViewController.swift */; };
+		0724CF0E257139DA009A00D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0724CF0C257139DA009A00D9 /* Main.storyboard */; };
+		0724CF10257139DC009A00D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0724CF0F257139DC009A00D9 /* Assets.xcassets */; };
+		0724CF13257139DC009A00D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0724CF11257139DC009A00D9 /* LaunchScreen.storyboard */; };
+		0724CF1E257139DC009A00D9 /* Litell_blueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0724CF1D257139DC009A00D9 /* Litell_blueTests.swift */; };
+		0724CF29257139DC009A00D9 /* Litell_blueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0724CF28257139DC009A00D9 /* Litell_blueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0724CF1A257139DC009A00D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0724CEFB257139D9009A00D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0724CF02257139DA009A00D9;
+			remoteInfo = "Litell-blue";
+		};
+		0724CF25257139DC009A00D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0724CEFB257139D9009A00D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0724CF02257139DA009A00D9;
+			remoteInfo = "Litell-blue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0724CF03257139DA009A00D9 /* Litell-blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Litell-blue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0724CF06257139DA009A00D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0724CF08257139DA009A00D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0724CF0A257139DA009A00D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0724CF0D257139DA009A00D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0724CF0F257139DC009A00D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0724CF12257139DC009A00D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0724CF14257139DC009A00D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0724CF19257139DC009A00D9 /* Litell-blueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Litell-blueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0724CF1D257139DC009A00D9 /* Litell_blueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litell_blueTests.swift; sourceTree = "<group>"; };
+		0724CF1F257139DC009A00D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0724CF24257139DC009A00D9 /* Litell-blueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Litell-blueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0724CF28257139DC009A00D9 /* Litell_blueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litell_blueUITests.swift; sourceTree = "<group>"; };
+		0724CF2A257139DC009A00D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0724CF00257139DA009A00D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0724CF16257139DC009A00D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0724CF21257139DC009A00D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0724CEFA257139D9009A00D9 = {
+			isa = PBXGroup;
+			children = (
+				0724CF05257139DA009A00D9 /* Litell-blue */,
+				0724CF1C257139DC009A00D9 /* Litell-blueTests */,
+				0724CF27257139DC009A00D9 /* Litell-blueUITests */,
+				0724CF04257139DA009A00D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0724CF04257139DA009A00D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0724CF03257139DA009A00D9 /* Litell-blue.app */,
+				0724CF19257139DC009A00D9 /* Litell-blueTests.xctest */,
+				0724CF24257139DC009A00D9 /* Litell-blueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0724CF05257139DA009A00D9 /* Litell-blue */ = {
+			isa = PBXGroup;
+			children = (
+				0724CF06257139DA009A00D9 /* AppDelegate.swift */,
+				0724CF08257139DA009A00D9 /* SceneDelegate.swift */,
+				0724CF0A257139DA009A00D9 /* ViewController.swift */,
+				0724CF0C257139DA009A00D9 /* Main.storyboard */,
+				0724CF0F257139DC009A00D9 /* Assets.xcassets */,
+				0724CF11257139DC009A00D9 /* LaunchScreen.storyboard */,
+				0724CF14257139DC009A00D9 /* Info.plist */,
+			);
+			path = "Litell-blue";
+			sourceTree = "<group>";
+		};
+		0724CF1C257139DC009A00D9 /* Litell-blueTests */ = {
+			isa = PBXGroup;
+			children = (
+				0724CF1D257139DC009A00D9 /* Litell_blueTests.swift */,
+				0724CF1F257139DC009A00D9 /* Info.plist */,
+			);
+			path = "Litell-blueTests";
+			sourceTree = "<group>";
+		};
+		0724CF27257139DC009A00D9 /* Litell-blueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0724CF28257139DC009A00D9 /* Litell_blueUITests.swift */,
+				0724CF2A257139DC009A00D9 /* Info.plist */,
+			);
+			path = "Litell-blueUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0724CF02257139DA009A00D9 /* Litell-blue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0724CF2D257139DC009A00D9 /* Build configuration list for PBXNativeTarget "Litell-blue" */;
+			buildPhases = (
+				0724CEFF257139DA009A00D9 /* Sources */,
+				0724CF00257139DA009A00D9 /* Frameworks */,
+				0724CF01257139DA009A00D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Litell-blue";
+			productName = "Litell-blue";
+			productReference = 0724CF03257139DA009A00D9 /* Litell-blue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0724CF18257139DC009A00D9 /* Litell-blueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0724CF30257139DC009A00D9 /* Build configuration list for PBXNativeTarget "Litell-blueTests" */;
+			buildPhases = (
+				0724CF15257139DC009A00D9 /* Sources */,
+				0724CF16257139DC009A00D9 /* Frameworks */,
+				0724CF17257139DC009A00D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0724CF1B257139DC009A00D9 /* PBXTargetDependency */,
+			);
+			name = "Litell-blueTests";
+			productName = "Litell-blueTests";
+			productReference = 0724CF19257139DC009A00D9 /* Litell-blueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0724CF23257139DC009A00D9 /* Litell-blueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0724CF33257139DC009A00D9 /* Build configuration list for PBXNativeTarget "Litell-blueUITests" */;
+			buildPhases = (
+				0724CF20257139DC009A00D9 /* Sources */,
+				0724CF21257139DC009A00D9 /* Frameworks */,
+				0724CF22257139DC009A00D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0724CF26257139DC009A00D9 /* PBXTargetDependency */,
+			);
+			name = "Litell-blueUITests";
+			productName = "Litell-blueUITests";
+			productReference = 0724CF24257139DC009A00D9 /* Litell-blueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0724CEFB257139D9009A00D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					0724CF02257139DA009A00D9 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					0724CF18257139DC009A00D9 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 0724CF02257139DA009A00D9;
+					};
+					0724CF23257139DC009A00D9 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 0724CF02257139DA009A00D9;
+					};
+				};
+			};
+			buildConfigurationList = 0724CEFE257139D9009A00D9 /* Build configuration list for PBXProject "Litell-blue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0724CEFA257139D9009A00D9;
+			productRefGroup = 0724CF04257139DA009A00D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0724CF02257139DA009A00D9 /* Litell-blue */,
+				0724CF18257139DC009A00D9 /* Litell-blueTests */,
+				0724CF23257139DC009A00D9 /* Litell-blueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0724CF01257139DA009A00D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0724CF13257139DC009A00D9 /* LaunchScreen.storyboard in Resources */,
+				0724CF10257139DC009A00D9 /* Assets.xcassets in Resources */,
+				0724CF0E257139DA009A00D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0724CF17257139DC009A00D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0724CF22257139DC009A00D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0724CEFF257139DA009A00D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0724CF0B257139DA009A00D9 /* ViewController.swift in Sources */,
+				0724CF07257139DA009A00D9 /* AppDelegate.swift in Sources */,
+				0724CF09257139DA009A00D9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0724CF15257139DC009A00D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0724CF1E257139DC009A00D9 /* Litell_blueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0724CF20257139DC009A00D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0724CF29257139DC009A00D9 /* Litell_blueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0724CF1B257139DC009A00D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0724CF02257139DA009A00D9 /* Litell-blue */;
+			targetProxy = 0724CF1A257139DC009A00D9 /* PBXContainerItemProxy */;
+		};
+		0724CF26257139DC009A00D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0724CF02257139DA009A00D9 /* Litell-blue */;
+			targetProxy = 0724CF25257139DC009A00D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0724CF0C257139DA009A00D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0724CF0D257139DA009A00D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0724CF11257139DC009A00D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0724CF12257139DC009A00D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0724CF2B257139DC009A00D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0724CF2C257139DC009A00D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0724CF2E257139DC009A00D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6ZUS2YRR4;
+				INFOPLIST_FILE = "Litell-blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kidd199572BB.ios.Litell-blue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0724CF2F257139DC009A00D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6ZUS2YRR4;
+				INFOPLIST_FILE = "Litell-blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kidd199572BB.ios.Litell-blue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0724CF31257139DC009A00D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6ZUS2YRR4;
+				INFOPLIST_FILE = "Litell-blueTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kidd199572BB.ios.Litell-blueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Litell-blue.app/Litell-blue";
+			};
+			name = Debug;
+		};
+		0724CF32257139DC009A00D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6ZUS2YRR4;
+				INFOPLIST_FILE = "Litell-blueTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kidd199572BB.ios.Litell-blueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Litell-blue.app/Litell-blue";
+			};
+			name = Release;
+		};
+		0724CF34257139DC009A00D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6ZUS2YRR4;
+				INFOPLIST_FILE = "Litell-blueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kidd199572BB.ios.Litell-blueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Litell-blue";
+			};
+			name = Debug;
+		};
+		0724CF35257139DC009A00D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6ZUS2YRR4;
+				INFOPLIST_FILE = "Litell-blueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kidd199572BB.ios.Litell-blueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Litell-blue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0724CEFE257139D9009A00D9 /* Build configuration list for PBXProject "Litell-blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0724CF2B257139DC009A00D9 /* Debug */,
+				0724CF2C257139DC009A00D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0724CF2D257139DC009A00D9 /* Build configuration list for PBXNativeTarget "Litell-blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0724CF2E257139DC009A00D9 /* Debug */,
+				0724CF2F257139DC009A00D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0724CF30257139DC009A00D9 /* Build configuration list for PBXNativeTarget "Litell-blueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0724CF31257139DC009A00D9 /* Debug */,
+				0724CF32257139DC009A00D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0724CF33257139DC009A00D9 /* Build configuration list for PBXNativeTarget "Litell-blueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0724CF34257139DC009A00D9 /* Debug */,
+				0724CF35257139DC009A00D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0724CEFB257139D9009A00D9 /* Project object */;
+}

@@ -15,6 +15,7 @@
 		0724CF13257139DC009A00D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0724CF11257139DC009A00D9 /* LaunchScreen.storyboard */; };
 		0724CF1E257139DC009A00D9 /* Litell_blueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0724CF1D257139DC009A00D9 /* Litell_blueTests.swift */; };
 		0724CF29257139DC009A00D9 /* Litell_blueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0724CF28257139DC009A00D9 /* Litell_blueUITests.swift */; };
+		0724CF3A25713A79009A00D9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0724CF3925713A79009A00D9 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0724CF24257139DC009A00D9 /* Litell-blueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Litell-blueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0724CF28257139DC009A00D9 /* Litell_blueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litell_blueUITests.swift; sourceTree = "<group>"; };
 		0724CF2A257139DC009A00D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0724CF3925713A79009A00D9 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		0724CEFA257139D9009A00D9 = {
 			isa = PBXGroup;
 			children = (
+				0724CF3925713A79009A00D9 /* .gitignore */,
 				0724CF05257139DA009A00D9 /* Litell-blue */,
 				0724CF1C257139DC009A00D9 /* Litell-blueTests */,
 				0724CF27257139DC009A00D9 /* Litell-blueUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0724CF3A25713A79009A00D9 /* .gitignore in Resources */,
 				0724CF13257139DC009A00D9 /* LaunchScreen.storyboard in Resources */,
 				0724CF10257139DC009A00D9 /* Assets.xcassets in Resources */,
 				0724CF0E257139DA009A00D9 /* Main.storyboard in Resources */,
